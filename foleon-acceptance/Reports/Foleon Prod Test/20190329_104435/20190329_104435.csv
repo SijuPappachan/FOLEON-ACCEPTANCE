@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-03-29 10:44:46,2019-03-29 10:47:22,2m - 36.043s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-29 10:44:46,2019-03-29 10:45:27,40.070s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-29 10:44:47,2019-03-29 10:44:49,1.808s,PASSED
+refresh(),Chrome 73.0.3683.86,,2019-03-29 10:44:49,2019-03-29 10:44:49,0.032s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-03-29 10:44:49,2019-03-29 10:44:49,0.492s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-29 10:44:49,2019-03-29 10:44:55,5.688s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-29 10:44:55,2019-03-29 10:45:27,31.783s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-29 10:45:27,2019-03-29 10:46:05,38.385s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-29 10:45:27,2019-03-29 10:45:28,1.040s,PASSED
+refresh(),Chrome 73.0.3683.86,,2019-03-29 10:45:28,2019-03-29 10:45:28,0.019s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-03-29 10:45:28,2019-03-29 10:45:28,0.230s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-29 10:45:28,2019-03-29 10:45:33,5.514s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-29 10:45:33,2019-03-29 10:46:05,31.570s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-29 10:46:05,2019-03-29 10:46:44,38.760s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-29 10:46:05,2019-03-29 10:46:06,1.105s,PASSED
+refresh(),Chrome 73.0.3683.86,,2019-03-29 10:46:06,2019-03-29 10:46:06,0.019s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-03-29 10:46:06,2019-03-29 10:46:06,0.230s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-29 10:46:06,2019-03-29 10:46:12,5.624s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-29 10:46:12,2019-03-29 10:46:44,31.774s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-29 10:46:44,2019-03-29 10:47:22,38.510s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-29 10:46:44,2019-03-29 10:46:45,1.097s,PASSED
+refresh(),Chrome 73.0.3683.86,,2019-03-29 10:46:45,2019-03-29 10:46:45,0.021s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-03-29 10:46:45,2019-03-29 10:46:45,0.228s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-29 10:46:45,2019-03-29 10:46:51,5.591s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-29 10:46:51,2019-03-29 10:47:22,31.563s,FAILED

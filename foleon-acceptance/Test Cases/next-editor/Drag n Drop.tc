@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Drag n Drop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61ed1b5c-7265-4bdd-a026-809427b9d80f</testCaseGuid>
+   <variable>
+      <defaultValue>'siju+310@foleon.com'</defaultValue>
+      <description></description>
+      <id>a947ddcd-cfdc-4ac6-8aaf-7830fa97d5c0</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'rtfm2013'</defaultValue>
+      <description></description>
+      <id>23c5ab4b-45a1-471b-bc40-a4b1feb3389e</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

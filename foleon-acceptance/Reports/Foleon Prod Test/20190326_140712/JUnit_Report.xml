@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="24" tests="3" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="3" failures="0" errors="0" time="24" timestamp="2019-03-26 14:07:23" hostname="siju - 10.34.12.118" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190326_140712"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190326_140712/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 10.34.12.118"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.34.12.118"/>
+         <property name="sessionId" value="e7c973d503b6a909473bb3c40b788c4f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-03-26 14:07:24 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-03-26 14:07:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-26 14:07:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-26 14:07:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-26 14:07:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-26 14:07:26 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 14:07:32 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 14:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text 'a' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:32 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text 'a' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:32 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-03-26 14:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-03-26 14:07:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-26 14:07:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-03-26 14:07:33 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-03-26 14:07:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-26 14:07:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-26 14:07:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-26 14:07:33 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 14:07:39 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 14:07:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text '' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text '' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-03-26 14:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-03-26 14:07:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-26 14:07:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-03-26 14:07:40 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-03-26 14:07:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-26 14:07:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-26 14:07:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-26 14:07:41 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 14:07:46 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 14:07:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text '#$@xy3.com' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:47 - [MESSAGE][PASSED] - Text '#$@xy3.com' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text '  765' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:47 - [MESSAGE][PASSED] - Text '  765' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-03-26 14:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-03-26 14:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-03-26 14:07:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-03-26 14:07:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-26 14:07:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-26 14:07:23 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/Foleon_Logon invalid authenticate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

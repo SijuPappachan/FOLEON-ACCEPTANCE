@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.699s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.446s,FAILED
+"openBrowser("""")",,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.208s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.032s,FAILED
+"openBrowser("""")",,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.018s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.018s,FAILED
+"openBrowser("""")",,,2019-03-26 13:56:40,2019-03-26 13:56:40,0.008s,FAILED

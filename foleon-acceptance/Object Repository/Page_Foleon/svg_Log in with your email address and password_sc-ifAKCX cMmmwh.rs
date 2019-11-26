@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Log in with your email address and password_sc-ifAKCX cMmmwh</name>
+   <tag></tag>
+   <elementGuidId>092c5d8a-743a-4973-89cf-49568cc1bc33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU sc-jwKygS GtMZv&quot;]/div[@class=&quot;sc-bdVaJa sc-cMljjf sc-iELTvK fccLRp&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU dQNPzx&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU ffyYUQ&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU sc-btzYZH frBgKd&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-jAaTju jNzSBf&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU jRGew&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb gdtvIx&quot;]/form[1]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb JIyzN&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU cFhvaP&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU bhshqv&quot;]/svg[@class=&quot;sc-ifAKCX cMmmwh&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-ifAKCX cMmmwh</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU sc-jwKygS GtMZv&quot;]/div[@class=&quot;sc-bdVaJa sc-cMljjf sc-iELTvK fccLRp&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU dQNPzx&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU ffyYUQ&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU sc-btzYZH frBgKd&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-jAaTju jNzSBf&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU jRGew&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb gdtvIx&quot;]/form[1]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb JIyzN&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU cFhvaP&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU bhshqv&quot;]/svg[@class=&quot;sc-ifAKCX cMmmwh&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

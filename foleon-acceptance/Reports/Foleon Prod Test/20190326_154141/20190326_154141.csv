@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-03-26 15:41:53,2019-03-26 15:42:07,14.502s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon Click Start a free trial button,Chrome 73.0.3683.86,,2019-03-26 15:41:53,2019-03-26 15:42:07,14.300s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-26 15:41:53,2019-03-26 15:41:55,1.715s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-26 15:41:55,2019-03-26 15:42:01,6.136s,PASSED
+"click(findTestObject(""Page_Foleon/button_Start a free trial""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-26 15:42:01,2019-03-26 15:42:07,5.649s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/a_privacy policy""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.037s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/button_Create account""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Business email""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/input_Business email_email""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/input_Password_password""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Business email""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Create account""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Get product-related news and features""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Password""), 2)",Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.022s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-26 15:42:07,2019-03-26 15:42:07,0.112s,PASSED

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Log in with your email address and passwordEmail addressPasswordLog inForgot passwordAny questionsContact us</name>
+   <tag></tag>
+   <elementGuidId>9119d69c-32c2-4d64-b98f-a36c7b09429c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100%</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>display</name>
+      <type>Main</type>
+      <value>flex</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-bdVaJa sc-bwzfXH sc-jlyJG gGFRVa</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in with your email address and password.Email addressPasswordLog inForgot password?Any questions?Contact us</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bdVaJa sc-bwzfXH sc-VigVT sc-kfGgVZ bLQjvB&quot;]/div[@class=&quot;sc-bdVaJa sc-iRbamj sc-hwwEjo hZAGsx&quot;]/div[@class=&quot;sc-bdVaJa sc-bwzfXH sc-VigVT dgoRtf&quot;]/div[@class=&quot;sc-bdVaJa sc-bwzfXH sc-VigVT cvYKPb&quot;]/div[@class=&quot;sc-bdVaJa sc-bwzfXH sc-VigVT bYgKSV&quot;]/div[@class=&quot;sc-bdVaJa sc-bwzfXH sc-VigVT sc-esjQYD cqsgPC&quot;]/div[@class=&quot;sc-bdVaJa sc-bwzfXH sc-jlyJG gGFRVa&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div/div/div/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start a free trial'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New to Foleon?'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div/div/div/div/div/div/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

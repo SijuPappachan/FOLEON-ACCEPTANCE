@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="16" tests="2" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="2" failures="0" errors="0" time="16" timestamp="2019-03-24 22:36:14" hostname="siju - 192.168.178.88" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190324_223603"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190324_223603/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 192.168.178.88"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.178.88"/>
+         <property name="sessionId" value="3b6441f70696146c031cbdb7149855f0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Homepage_BG" classname="Test Cases/Foleon_Homepage_BG" status="PASSED">
+         <system-out><![CDATA[2019-03-24 22:36:14 - [TEST_CASE][PASSED] - Test Cases/Foleon_Homepage_BG: Test Cases/Foleon_Homepage_BG
+
+2019-03-24 22:36:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-24 22:36:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-24 22:36:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-24 22:36:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-24 22:36:16 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-24 22:36:22 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-24 22:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Foleon/Foleon_BG")): Object: 'Object Repository/Page_Foleon/Foleon_BG' is clicked on
+
+2019-03-24 22:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/Foleon_BG' is clicked on
+
+2019-03-24 22:36:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-24 22:36:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Homepage_logo" classname="Test Cases/Foleon_Homepage_logo" status="PASSED">
+         <system-out><![CDATA[2019-03-24 22:36:22 - [TEST_CASE][PASSED] - Test Cases/Foleon_Homepage_logo: Test Cases/Foleon_Homepage_logo
+
+2019-03-24 22:36:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-24 22:36:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-24 22:36:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-24 22:36:23 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-24 22:36:30 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-24 22:36:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/Page_Foleon_Home/div_New to FoleonStart a free trial"), 4): Object 'Object Repository/Page_Foleon/Page_Foleon_Home/div_New to FoleonStart a free trial' is present
+
+2019-03-24 22:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/Page_Foleon_Home/div_New to FoleonStart a free trial' is present
+
+2019-03-24 22:36:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-24 22:36:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-24 22:36:14 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/Foleon_Homepage_logo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

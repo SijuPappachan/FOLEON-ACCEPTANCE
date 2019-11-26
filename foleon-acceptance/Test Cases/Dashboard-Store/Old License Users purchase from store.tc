@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Trial users with below status is allowed to purchase Essential license from store with multiple currency.
+
+Trial User Type:
+1. Unverified
+2. Verified
+3. Active
+4. Inactive
+5. Blocked
+
+Currency:
+$, €, £</description>
+   <name>Old License Users purchase from store</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ead4208-99cf-4685-baeb-af54393fab28</testCaseGuid>
+   <variable>
+      <defaultValue>'siju+181@foleon.com'</defaultValue>
+      <description></description>
+      <id>084f37d4-d148-426f-96f0-1207cccf1461</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'rtfm2013'</defaultValue>
+      <description></description>
+      <id>4cf8c831-7fda-459a-8928-e11e4c742698</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'iDEAL'</defaultValue>
+      <description></description>
+      <id>ca69756e-ead4-457f-ad52-97520448d454</id>
+      <masked>false</masked>
+      <name>Payment</name>
+   </variable>
+   <variable>
+      <defaultValue>'+ASDF-3-...$%..'</defaultValue>
+      <description></description>
+      <id>7779a894-aea1-4d02-8a82-d8a6401e8144</id>
+      <masked>false</masked>
+      <name>Reference</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestIssuer'</defaultValue>
+      <description></description>
+      <id>a1791e4c-ca04-4702-8549-bf716aeac46c</id>
+      <masked>false</masked>
+      <name>TestIssuer</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-04-01 16:41:37,2019-04-01 16:41:55,17.988s,PASSED
+,,,,,,
+Test Cases/Foleon_Contact Us Page,Chrome 73.0.3683.86,,2019-04-01 16:41:37,2019-04-01 16:41:55,17.793s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:41:37,2019-04-01 16:41:39,1.827s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:41:39,2019-04-01 16:41:39,0.469s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:41:39,2019-04-01 16:41:45,5.573s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/a_Contact us""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:41:45,2019-04-01 16:41:45,0.145s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-01 16:41:45,2019-04-01 16:41:50,5.024s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,,2019-04-01 16:41:50,2019-04-01 16:41:50,0.023s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-01 16:41:50,2019-04-01 16:41:53,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_FAQ  Support""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.057s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_infofoleoncom""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Log in""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Products and title frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Support frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/b_By email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/b_By phone""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:53,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_1""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:53,2019-04-01 16:41:54,0.100s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div__actions""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_By phone_flag""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_London_flag""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/h3_Send us a message""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/h4_Support""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/img""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/img DU""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/img NL""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__company""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__firstname""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__hs-button primary large""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input_Phone number_phone""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/label_Email address""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/label_First name""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/label_Phone number""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_By phone""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_See all of our support options""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Amsterdam""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Email address""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Find out more""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_London""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Looking for help""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_New York""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_We love quality communication""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.051s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/textarea__message""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.027s,PASSED
+closeWindowIndex(1),Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.080s,PASSED
+switchToWindowIndex(0),Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:54,0.009s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:41:54,2019-04-01 16:41:55,0.127s,PASSED

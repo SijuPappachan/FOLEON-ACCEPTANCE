@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Trial users with below status is allowed to purchase Essential license from store with multiple currency.
+
+Trial User Type:
+1. Unverified
+2. Verified
+3. Active
+4. Inactive
+5. Blocked
+
+Currency:
+$, €, £</description>
+   <name>Anonymous user purchase from store</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77086da0-f7a0-4402-951b-a1afaa9309f8</testCaseGuid>
+   <variable>
+      <defaultValue>'iDEAL'</defaultValue>
+      <description></description>
+      <id>cddda6a2-7ba7-46ea-9115-7af83ac3c88c</id>
+      <masked>false</masked>
+      <name>Payment</name>
+   </variable>
+   <variable>
+      <defaultValue>'+ASDF-3-...$%..'</defaultValue>
+      <description></description>
+      <id>3cd8893c-af77-4b55-9f49-6ab9c5f7ec22</id>
+      <masked>false</masked>
+      <name>Reference</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestIssuer'</defaultValue>
+      <description></description>
+      <id>42201016-3562-49d4-b99a-8f18fe624c01</id>
+      <masked>false</masked>
+      <name>TestIssuer</name>
+   </variable>
+</TestCaseEntity>

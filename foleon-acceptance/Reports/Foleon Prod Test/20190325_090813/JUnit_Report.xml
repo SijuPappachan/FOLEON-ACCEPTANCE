@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="45" tests="3" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="3" failures="0" errors="0" time="45" timestamp="2019-03-25 09:08:25" hostname="siju - 10.42.4.134" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190325_090813"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190325_090813/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 10.42.4.134"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.42.4.134"/>
+         <property name="sessionId" value="a080d3a77c1f83b74afc94b2c2990e96"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Homepage_BG" classname="Test Cases/Foleon_Homepage_BG" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:08:26 - [TEST_CASE][PASSED] - Test Cases/Foleon_Homepage_BG: Test Cases/Foleon_Homepage_BG
+
+2019-03-25 09:08:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:08:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:08:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-25 09:08:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:08:28 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-25 09:08:41 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-25 09:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Foleon/Foleon_BG")): Object: 'Object Repository/Page_Foleon/Foleon_BG' is clicked on
+
+2019-03-25 09:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/Foleon_BG' is clicked on
+
+2019-03-25 09:08:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:08:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logo" classname="Test Cases/Foleon_Logo" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:08:41 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logo: Test Cases/Foleon_Logo
+
+2019-03-25 09:08:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:08:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:08:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:08:42 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-25 09:08:56 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-25 09:08:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_New to FoleonStart a free trial"), 4): Object 'Object Repository/Page_Foleon/div_New to FoleonStart a free trial' is present
+
+2019-03-25 09:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_New to FoleonStart a free trial' is present
+
+2019-03-25 09:08:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:08:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Start a free trial" classname="Test Cases/Foleon_Start a free trial" status="PASSED">
+         <system-out><![CDATA[2019-03-25 09:08:56 - [TEST_CASE][PASSED] - Test Cases/Foleon_Start a free trial: Test Cases/Foleon_Start a free trial
+
+2019-03-25 09:08:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-25 09:08:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-25 09:08:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-25 09:08:57 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-25 09:09:11 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-25 09:09:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/button_Start a free trial"), 4): Object 'Object Repository/Page_Foleon/button_Start a free trial' is present
+
+2019-03-25 09:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/button_Start a free trial' is present
+
+2019-03-25 09:09:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-25 09:09:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-25 09:08:25 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/Foleon_Start a free trial]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

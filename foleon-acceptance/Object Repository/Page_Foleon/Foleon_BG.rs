@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Foleon_BG</name>
+   <tag></tag>
+   <elementGuidId>0f897264-9c4c-4381-981a-a0c201966ef8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-bdVaJa sc-bxivhb sc-gqjmRU sc-btzYZH frBgKd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New to Foleon?Start a free trialLog in with your email address and password.Email addressPasswordLog inForgot password?Any questions?Contact usv2.0.27</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU sc-jwKygS GtMZv&quot;]/div[@class=&quot;sc-bdVaJa sc-cMljjf sc-iELTvK fccLRp&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU haJduK&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU dQNPzx&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU ffyYUQ&quot;]/div[@class=&quot;sc-bdVaJa sc-bxivhb sc-gqjmRU sc-btzYZH frBgKd&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div/div/div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

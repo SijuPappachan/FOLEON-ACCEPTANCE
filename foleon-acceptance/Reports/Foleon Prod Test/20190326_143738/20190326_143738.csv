@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-03-26 14:37:49,2019-03-26 14:38:24,34.721s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-26 14:37:49,2019-03-26 14:37:58,8.864s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-26 14:37:50,2019-03-26 14:37:51,1.737s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-26 14:37:51,2019-03-26 14:37:57,5.371s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-26 14:37:57,2019-03-26 14:37:57,0.174s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-03-26 14:37:57,2019-03-26 14:37:57,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-26 14:37:57,2019-03-26 14:37:57,0.072s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:37:57,2019-03-26 14:37:58,1.048s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:37:58,2019-03-26 14:37:58,0.024s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-26 14:37:58,2019-03-26 14:37:58,0.102s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-26 14:37:58,2019-03-26 14:38:06,7.482s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-26 14:37:58,2019-03-26 14:37:59,1.032s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-26 14:37:59,2019-03-26 14:38:05,5.548s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-26 14:38:05,2019-03-26 14:38:05,0.085s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-03-26 14:38:05,2019-03-26 14:38:05,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-26 14:38:05,2019-03-26 14:38:05,0.067s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:38:05,2019-03-26 14:38:06,0.539s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:38:06,2019-03-26 14:38:06,0.022s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-26 14:38:06,2019-03-26 14:38:06,0.097s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-26 14:38:06,2019-03-26 14:38:14,8.476s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-26 14:38:06,2019-03-26 14:38:07,1.023s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-26 14:38:07,2019-03-26 14:38:12,5.392s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-26 14:38:12,2019-03-26 14:38:12,0.190s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-03-26 14:38:12,2019-03-26 14:38:12,0.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-26 14:38:12,2019-03-26 14:38:12,0.066s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:38:12,2019-03-26 14:38:14,1.557s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:38:14,2019-03-26 14:38:14,0.020s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-26 14:38:14,2019-03-26 14:38:14,0.097s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-26 14:38:14,2019-03-26 14:38:24,9.606s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-26 14:38:14,2019-03-26 14:38:15,1.020s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-26 14:38:15,2019-03-26 14:38:20,5.297s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-03-26 14:38:20,2019-03-26 14:38:21,0.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-03-26 14:38:21,2019-03-26 14:38:21,0.132s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-26 14:38:21,2019-03-26 14:38:21,0.063s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-03-26 14:38:21,2019-03-26 14:38:24,2.843s,FAILED

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Trial users with below status is allowed to purchase Essential license from store with multiple currency.
+
+Trial User Type:
+1. Unverified
+2. Verified
+3. Active
+4. Inactive
+5. Blocked
+
+Currency:
+$, €, £</description>
+   <name>Users with no access to store</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1852d00-006d-4ed7-a15d-a9aae9668fe3</testCaseGuid>
+   <variable>
+      <defaultValue>'siju+191@foleon.com'</defaultValue>
+      <description></description>
+      <id>9eed6dd3-1f52-4abc-865c-0a4367d90d3a</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'rtfm2013'</defaultValue>
+      <description></description>
+      <id>192d2c76-e6ac-432b-951d-8175a139a747</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Netherlands'</defaultValue>
+      <description></description>
+      <id>6d6130ba-8f13-4bab-8867-b3f836bc4319</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>'Street'</defaultValue>
+      <description></description>
+      <id>48187d09-d450-4b34-a0db-df8efead9e4c</id>
+      <masked>false</masked>
+      <name>Street</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>81cfbe75-7500-436a-9ca6-dfb498ff9549</id>
+      <masked>false</masked>
+      <name>HouseNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234ab'</defaultValue>
+      <description></description>
+      <id>2a779f6b-ddda-4735-83ce-1e739db6dce3</id>
+      <masked>false</masked>
+      <name>PostalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'City'</defaultValue>
+      <description></description>
+      <id>d5c50e74-fe77-4caf-bd1f-77a4fb317b00</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>'Province'</defaultValue>
+      <description></description>
+      <id>8954ac00-033e-45f4-9972-7c6ff688f8c7</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+   <variable>
+      <defaultValue>'BillingName'</defaultValue>
+      <description></description>
+      <id>134f842f-4dce-4ce6-99e3-fe23b1320dad</id>
+      <masked>false</masked>
+      <name>BillingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Billing+123@foleon.com'</defaultValue>
+      <description></description>
+      <id>f2cfbdfe-440d-4931-b393-a0694a2cec16</id>
+      <masked>false</masked>
+      <name>BillingEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>b78fe0d8-9540-45dc-ad31-b54234537b18</id>
+      <masked>false</masked>
+      <name>KvKNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'iDEAL'</defaultValue>
+      <description></description>
+      <id>f1809c69-1076-4a4a-adc5-3262e9febeba</id>
+      <masked>false</masked>
+      <name>Payment</name>
+   </variable>
+   <variable>
+      <defaultValue>'+ASDF-3-...$%..'</defaultValue>
+      <description></description>
+      <id>f22b23f3-3729-4c60-97bf-cefa1cc03a3d</id>
+      <masked>false</masked>
+      <name>Reference</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestIssuer'</defaultValue>
+      <description></description>
+      <id>5bfc2143-bff7-48eb-8440-1b67c1020446</id>
+      <masked>false</masked>
+      <name>TestIssuer</name>
+   </variable>
+</TestCaseEntity>

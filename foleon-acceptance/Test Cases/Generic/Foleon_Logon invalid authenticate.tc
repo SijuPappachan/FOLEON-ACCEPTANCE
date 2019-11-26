@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Foleon_Logon invalid authenticate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b1264d5-b3d7-40ed-aec5-0ae3faf34ca8</testCaseGuid>
+   <variable>
+      <defaultValue>'a'</defaultValue>
+      <description></description>
+      <id>4031dfa8-c517-48b1-8ad4-56bae316a8ef</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'a'</defaultValue>
+      <description></description>
+      <id>082868be-f3bd-4141-99eb-6266531400b7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUp page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79943f5d-d831-4c29-9a3e-19f2e0f440a1</testCaseGuid>
+   <variable>
+      <defaultValue>'a'</defaultValue>
+      <description></description>
+      <id>685df549-326a-4d27-bf51-c6d8ce4829e7</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'a@a'</defaultValue>
+      <description></description>
+      <id>00461a2b-86a6-4239-b6b8-b68b8034d474</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'sijujohn728@gmail.com'</defaultValue>
+      <description></description>
+      <id>bfe8b2c7-7668-491e-b722-90ffb5c3eeac</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0a04193-55ce-4cca-b11e-d3c6e0c99d66</id>
+      <masked>false</masked>
+      <name>Empty</name>
+   </variable>
+</TestCaseEntity>

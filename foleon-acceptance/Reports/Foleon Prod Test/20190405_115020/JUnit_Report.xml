@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="118" tests="12" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="12" failures="0" errors="0" time="118" timestamp="2019-04-05 11:50:31" hostname="siju - 10.34.12.118" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190405_115020"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190405_115020/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 10.34.12.118"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.34.12.118"/>
+         <property name="sessionId" value="37f1902d4d890ffd1575ca74b610c224"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Homepage_BG" classname="Test Cases/Foleon_Homepage_BG" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:50:32 - [TEST_CASE][PASSED] - Test Cases/Foleon_Homepage_BG: Test Cases/Foleon_Homepage_BG
+
+2019-04-05 11:50:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:50:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:50:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-05 11:50:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:50:34 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:50:34 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:50:34 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:50:39 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Foleon/Foleon_BG")): Object: 'Object Repository/Page_Foleon/Foleon_BG' is clicked on
+
+2019-04-05 11:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/Foleon_BG' is clicked on
+
+2019-04-05 11:50:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:50:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_label check button_Start a free trial" classname="Test Cases/Foleon_label check button_Start a free trial" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:50:40 - [TEST_CASE][PASSED] - Test Cases/Foleon_label check button_Start a free trial: Test Cases/Foleon_label check button_Start a free trial
+
+2019-04-05 11:50:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:50:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:50:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:50:41 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:50:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:50:41 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:50:46 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:50:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/button_Start a free trial"), 2): Object 'Object Repository/Page_Foleon/button_Start a free trial' is present
+
+2019-04-05 11:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/button_Start a free trial' is present
+
+2019-04-05 11:50:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:50:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon Click Start a free trial button" classname="Test Cases/Foleon_Logon Click Start a free trial button" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:50:46 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon Click Start a free trial button: Test Cases/Foleon_Logon Click Start a free trial button
+
+2019-04-05 11:50:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:50:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:50:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:50:48 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:50:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:50:48 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:50:53 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Foleon/button_Start a free trial"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Start a free trial' is clicked on
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Start a free trial' is clicked on
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/a_privacy policy"), 2): Object 'Object Repository/Page_Create account - Foleon/a_privacy policy' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/a_privacy policy' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/button_Create account"), 2): Object 'Object Repository/Page_Create account - Foleon/button_Create account' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/button_Create account' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Business email"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Business email' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Business email' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days"), 2): Object 'Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/input_Business email_email"), 2): Object 'Object Repository/Page_Create account - Foleon/input_Business email_email' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/input_Business email_email' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/input_Password_password"), 2): Object 'Object Repository/Page_Create account - Foleon/input_Password_password' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/input_Password_password' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi"), 2): Object 'Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi"), 2): Object 'Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Business email"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Business email' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Business email' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Create account"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Create account' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Create account' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Get product-related news and features"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Get product-related news and features' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Get product-related news and features' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Password"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Password' is present
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Password' is present
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:50:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_check label email, password and Login" classname="Test Cases/Foleon_check label email, password and Login" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:50:59 - [TEST_CASE][PASSED] - Test Cases/Foleon_check label email, password and Login: Test Cases/Foleon_check label email, password and Login
+
+2019-04-05 11:50:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:50:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:00 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:01 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:06 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/label_Email address"), 2): Object 'Object Repository/Page_Foleon/label_Email address' is present
+
+2019-04-05 11:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/label_Email address' is present
+
+2019-04-05 11:51:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/label_Password"), 2): Object 'Object Repository/Page_Foleon/label_Password' is present
+
+2019-04-05 11:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/label_Password' is present
+
+2019-04-05 11:51:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_Log in"), 2): Object 'Object Repository/Page_Foleon/div_Log in' is present
+
+2019-04-05 11:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_Log in' is present
+
+2019-04-05 11:51:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/button_Log in"), 2): Object 'Object Repository/Page_Foleon/button_Log in' is present
+
+2019-04-05 11:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/button_Log in' is present
+
+2019-04-05 11:51:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:51:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon Click Forgot password" classname="Test Cases/Foleon_Logon Click Forgot password" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:51:06 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon Click Forgot password: Test Cases/Foleon_Logon Click Forgot password
+
+2019-04-05 11:51:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:51:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:07 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:07 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:13 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/span_Forgot password"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/span_Forgot password' is clicked on
+
+2019-04-05 11:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/span_Forgot password' is clicked on
+
+2019-04-05 11:51:14 - [TEST_STEP][PASSED] - verifyLinksAccessible(["http://portal.unicornheaven.co/forgot-password"]): All links are accessible
+
+2019-04-05 11:51:25 - [MESSAGE][INFO] - HAR: /Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190405_115020/requests/main/0.har
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - All links are accessible
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/a_Contact us"), 2): Object 'Object Repository/Page_Forgot password  Foleon/a_Contact us' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/a_Contact us' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/button_send mail"), 2): Object 'Object Repository/Page_Forgot password  Foleon/button_send mail' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/button_send mail' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_Any questionsContact us"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Any questionsContact us' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Any questionsContact us' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_Email address"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Email address' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Email address' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_Email address_sc-bwzfXH sc-htpNat dnBLRv"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Email address_sc-bwzfXH sc-htpNat dnBLRv' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Email address_sc-bwzfXH sc-htpNat dnBLRv' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Forgot password  Foleon/div_Forgot your passwordEnter your email"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Forgot your passwordEnter your email' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Forgot your passwordEnter your email' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_Go back"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_Go back' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_Go back' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/div_New to FoleonStart a free trial"), 2): Object 'Object Repository/Page_Forgot password  Foleon/div_New to FoleonStart a free trial' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/div_New to FoleonStart a free trial' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/h2_Forgot your password"), 2): Object 'Object Repository/Page_Forgot password  Foleon/h2_Forgot your password' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/h2_Forgot your password' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/input_Email address_sc-fBuWsC kJDrms"), 2): Object 'Object Repository/Page_Forgot password  Foleon/input_Email address_sc-fBuWsC kJDrms' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/input_Email address_sc-fBuWsC kJDrms' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/p_Any questions"), 2): Object 'Object Repository/Page_Forgot password  Foleon/p_Any questions' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/p_Any questions' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/span_Enter your email address and well get you back on track"), 2): Object 'Object Repository/Page_Forgot password  Foleon/span_Enter your email address and well get you back on track' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/span_Enter your email address and well get you back on track' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/span_Go back"), 2): Object 'Object Repository/Page_Forgot password  Foleon/span_Go back' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/span_Go back' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot password  Foleon/span_v20272"), 2): Object 'Object Repository/Page_Forgot password  Foleon/span_v20272' is present
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot password  Foleon/span_v20272' is present
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:51:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:51:25 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-04-05 11:51:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:51:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:26 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:26 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:32 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text 'a' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:32 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text 'a' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:32 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:51:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:51:32 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-04-05 11:51:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:51:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:33 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:33 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:39 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text '' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text '' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:51:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:51:39 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-04-05 11:51:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:51:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:40 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:40 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:45 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text '#$@xy3.com' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:46 - [MESSAGE][PASSED] - Text '#$@xy3.com' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text '  765' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:46 - [MESSAGE][PASSED] - Text '  765' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:51:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:51:46 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-04-05 11:51:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:51:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:47 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:47 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:52 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text 'm.memic90@gmail.com' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:53 - [MESSAGE][PASSED] - Text 'm.memic90@gmail.com' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text 'rtfm2013' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:53 - [MESSAGE][PASSED] - Text 'rtfm2013' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:51:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:51:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:51:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:51:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Logon invalid authenticate" classname="Test Cases/Foleon_Logon invalid authenticate" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:51:53 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon invalid authenticate: Test Cases/Foleon_Logon invalid authenticate
+
+2019-04-05 11:51:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:51:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:51:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:51:54 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:51:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:51:54 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:59 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:51:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi"), Email): Text '' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:52:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi'
+
+2019-04-05 11:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi"), Password): Text '' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:52:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi'
+
+2019-04-05 11:52:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Log in' is clicked on
+
+2019-04-05 11:52:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again"), 2): Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again' is present
+
+2019-04-05 11:52:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:52:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Foleon_Contact Us Page" classname="Test Cases/Foleon_Contact Us Page" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:52:00 - [TEST_CASE][PASSED] - Test Cases/Foleon_Contact Us Page: Test Cases/Foleon_Contact Us Page
+
+2019-04-05 11:52:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:52:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:52:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:52:01 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:52:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:52:01 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:52:06 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-05 11:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/a_Contact us"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/a_Contact us' is clicked on
+
+2019-04-05 11:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/a_Contact us' is clicked on
+
+2019-04-05 11:52:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-05 11:52:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-05 11:52:12 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-05 11:52:12 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-05 11:52:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_FAQ  Support"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_FAQ  Support' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_FAQ  Support' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_infofoleoncom"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_infofoleoncom' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_infofoleoncom' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Log in"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Log in' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Log in' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Products and title frame"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Products and title frame' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Products and title frame' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Support frame"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Support frame' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Support frame' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/b_By email"), 2): Object 'Object Repository/Page_Contact Us  Foleon/b_By email' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/b_By email' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/b_By phone"), 2): Object 'Object Repository/Page_Contact Us  Foleon/b_By phone' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/b_By phone' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_1"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_1' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_1' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div__actions"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div__actions' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div__actions' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_By phone_flag"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_By phone_flag' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_By phone_flag' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_London_flag"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_London_flag' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_London_flag' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite"), 2): Object 'Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/h3_Send us a message"), 2): Object 'Object Repository/Page_Contact Us  Foleon/h3_Send us a message' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/h3_Send us a message' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us"), 2): Object 'Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/h4_Support"), 2): Object 'Object Repository/Page_Contact Us  Foleon/h4_Support' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/h4_Support' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget"), 2): Object 'Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/img"), 2): Object 'Object Repository/Page_Contact Us  Foleon/img' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/img' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/img DU"), 2): Object 'Object Repository/Page_Contact Us  Foleon/img DU' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/img DU' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/img NL"), 2): Object 'Object Repository/Page_Contact Us  Foleon/img NL' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/img NL' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__company"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__company' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__company' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__email"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__email' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__email' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__firstname"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__firstname' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__firstname' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__hs-button primary large"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__hs-button primary large' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__hs-button primary large' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input_Phone number_phone"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input_Phone number_phone' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input_Phone number_phone' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/label_Email address"), 2): Object 'Object Repository/Page_Contact Us  Foleon/label_Email address' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/label_Email address' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/label_First name"), 2): Object 'Object Repository/Page_Contact Us  Foleon/label_First name' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/label_First name' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/label_Phone number"), 2): Object 'Object Repository/Page_Contact Us  Foleon/label_Phone number' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/label_Phone number' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite"), 2): Object 'Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_By phone"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_By phone' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_By phone' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_See all of our support options"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_See all of our support options' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_See all of our support options' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Amsterdam"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Amsterdam' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Amsterdam' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Email address"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Email address' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Email address' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Find out more"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Find out more' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Find out more' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_London"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_London' is present
+
+2019-04-05 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_London' is present
+
+2019-04-05 11:52:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Looking for help"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Looking for help' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Looking for help' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_New York"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_New York' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_New York' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_We love quality communication"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_We love quality communication' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_We love quality communication' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/textarea__message"), 2): Object 'Object Repository/Page_Contact Us  Foleon/textarea__message' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/textarea__message' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite"), 2): Object 'Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF' is present
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF' is present
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:52:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp page" classname="Test Cases/SignUp page" status="PASSED">
+         <system-out><![CDATA[2019-04-05 11:52:16 - [TEST_CASE][PASSED] - Test Cases/SignUp page: Test Cases/SignUp page
+
+2019-04-05 11:52:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 11:52:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 11:52:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 11:52:17 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-05 11:52:17 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 11:52:17 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/create-account"): Navigate to 'http://my-develop.unicornheaven.co/create-account' successfully
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/create-account' successfully
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/a_privacy policy"), 2): Object 'Object Repository/Page_Create account - Foleon/a_privacy policy' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/a_privacy policy' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/button_Create account"), 2): Object 'Object Repository/Page_Create account - Foleon/button_Create account' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/button_Create account' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Business email"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Business email' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Business email' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days"), 2): Object 'Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/input_Business email_email"), 2): Object 'Object Repository/Page_Create account - Foleon/input_Business email_email' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/input_Business email_email' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/input_Password_password"), 2): Object 'Object Repository/Page_Create account - Foleon/input_Password_password' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/input_Password_password' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi"), 2): Object 'Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi"), 2): Object 'Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Business email"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Business email' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Business email' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Create account"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Create account' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Create account' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Get product-related news and features"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Get product-related news and features' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Get product-related news and features' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Password"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Password' is present
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Password' is present
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create account - Foleon/input_Business email_email"), address): Text 'a@a' is set on object 'Object Repository/Page_Create account - Foleon/input_Business email_email'
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Text 'a@a' is set on object 'Object Repository/Page_Create account - Foleon/input_Business email_email'
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create account - Foleon/button_Create account"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Create account - Foleon/button_Create account' is clicked on
+
+2019-04-05 11:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create account - Foleon/button_Create account' is clicked on
+
+2019-04-05 11:52:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/li_a is not a valid hostname for the email address"), 2): Object 'Object Repository/Page_Create account - Foleon/li_a is not a valid hostname for the email address' is present
+
+2019-04-05 11:52:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/li_a is not a valid hostname for the email address' is present
+
+2019-04-05 11:52:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create account - Foleon/input_Business email_email"), email): Text 'sijujohn728@gmail.com' is set on object 'Object Repository/Page_Create account - Foleon/input_Business email_email'
+
+2019-04-05 11:52:24 - [MESSAGE][PASSED] - Text 'sijujohn728@gmail.com' is set on object 'Object Repository/Page_Create account - Foleon/input_Business email_email'
+
+2019-04-05 11:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create account - Foleon/button_Create account"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Create account - Foleon/button_Create account' is clicked on
+
+2019-04-05 11:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create account - Foleon/button_Create account' is clicked on
+
+2019-04-05 11:52:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/li_E-mail address is already in use"), 2): Object 'Object Repository/Page_Create account - Foleon/li_E-mail address is already in use' is present
+
+2019-04-05 11:52:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/li_E-mail address is already in use' is present
+
+2019-04-05 11:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create account - Foleon/input_Business email_email"), Email): Text 'a' is set on object 'Object Repository/Page_Create account - Foleon/input_Business email_email'
+
+2019-04-05 11:52:25 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_Create account - Foleon/input_Business email_email'
+
+2019-04-05 11:52:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create account - Foleon/button_Create account"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Create account - Foleon/button_Create account' is clicked on
+
+2019-04-05 11:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create account - Foleon/button_Create account' is clicked on
+
+2019-04-05 11:52:25 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+2019-04-05 11:52:30 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2019-04-05 11:52:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 11:52:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-05 11:50:31 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/SignUp page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

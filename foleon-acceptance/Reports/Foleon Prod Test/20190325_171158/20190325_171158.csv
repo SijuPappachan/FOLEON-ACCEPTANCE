@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-03-25 17:12:09,2019-03-25 17:12:48,39.008s,PASSED
+,,,,,,
+Test Cases/Foleon_Homepage_BG,Chrome 73.0.3683.86,,2019-03-25 17:12:09,2019-03-25 17:12:22,13.204s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 17:12:10,2019-03-25 17:12:11,1.749s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-25 17:12:11,2019-03-25 17:12:22,11.037s,PASSED
+"click(findTestObject(""Page_Foleon/Foleon_BG""))",Chrome 73.0.3683.86,,2019-03-25 17:12:22,2019-03-25 17:12:22,0.086s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-25 17:12:22,2019-03-25 17:12:22,0.108s,PASSED
+,,,,,,
+Test Cases/Foleon_Logo,Chrome 73.0.3683.86,,2019-03-25 17:12:22,2019-03-25 17:12:35,12.507s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 17:12:23,2019-03-25 17:12:24,1.000s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-25 17:12:24,2019-03-25 17:12:35,11.221s,PASSED
+"verifyElementPresent(findTestObject(""Page_Foleon/svg_New to Foleon logo""), 2)",Chrome 73.0.3683.86,,2019-03-25 17:12:35,2019-03-25 17:12:35,0.029s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-25 17:12:35,2019-03-25 17:12:35,0.102s,PASSED
+,,,,,,
+Test Cases/Foleon_button_Start a free trial,Chrome 73.0.3683.86,,2019-03-25 17:12:35,2019-03-25 17:12:48,13.119s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 17:12:35,2019-03-25 17:12:36,0.922s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-25 17:12:36,2019-03-25 17:12:48,11.992s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/button_Start a free trial""), 2)",Chrome 73.0.3683.86,,2019-03-25 17:12:48,2019-03-25 17:12:48,0.023s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-25 17:12:48,2019-03-25 17:12:48,0.099s,PASSED

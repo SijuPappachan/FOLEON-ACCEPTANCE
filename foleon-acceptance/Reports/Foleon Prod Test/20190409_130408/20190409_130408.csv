@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.103,,2019-04-09 13:04:20,2019-04-09 13:05:01,41.117s,PASSED
+,,,,,,
+Test Cases/Foleon_Get started,Chrome 73.0.3683.103,,2019-04-09 13:04:20,2019-04-09 13:05:01,40.901s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-09 13:04:21,2019-04-09 13:04:22,1.784s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.103,,2019-04-09 13:04:22,2019-04-09 13:04:23,0.506s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/login"")",Chrome 73.0.3683.103,,2019-04-09 13:04:23,2019-04-09 13:04:29,5.687s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Login  Foleon/label_Email address""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:29,2019-04-09 13:04:29,0.075s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Login  Foleon/label_Password""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:29,2019-04-09 13:04:29,0.025s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj""), fieldemail)",Chrome 73.0.3683.103,,2019-04-09 13:04:29,2019-04-09 13:04:29,0.209s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj""), fieldpassword)",Chrome 73.0.3683.103,,2019-04-09 13:04:29,2019-04-09 13:04:29,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-09 13:04:29,2019-04-09 13:04:29,0.073s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-09 13:04:29,2019-04-09 13:04:39,10.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Get started - Foleon/span_Back""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-09 13:04:39,2019-04-09 13:04:40,0.524s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-09 13:04:40,2019-04-09 13:04:50,10.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/button_2Get started""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/button_Design""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/button_I work for an agency""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/button_Marketing  Communications""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/button_Other""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.035s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/button_Sales""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_1""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_1About you""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_2""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_2Get started""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Continue""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_First name""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_First nameLast nameCompany nameBusiness phone number""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourse""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourselfPlease answer a few questions so we can help you get started on the right foot1About you2Get started""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.012s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_1""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_2""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Design""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Get started""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_How do you currently present content""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_I work for an agency""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_In what industry are you active""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Marketing  Communications""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Get started - Foleon/span_""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:04:50,0.187s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-09 13:04:50,2019-04-09 13:05:00,10.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Pick one""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Publisher""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Construction  Real Estate""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Healthcare""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Government""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Education Management""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Retail""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Travel""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Automotive""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Non Profit  NGO""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Business services""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Other""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Sales""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Student""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_IT""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Other""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:00,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Union  Association""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:00,2019-04-09 13:05:01,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_What department are you a part of""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Your contact details""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Non Profit  NGO""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Other""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Other software""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_PDFs""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Pick one""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Print""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Publisher""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Retail""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Student""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Education Management""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Automotive""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Business services""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Construction  Real Estate""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Government""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Healthcare""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_I dont currently present content""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_IT""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Marketing  CommunicationsSalesDesignI work for an agencyOther""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/span_Agency""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_Agency""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Get started - Foleon/div_My website""), 2)",Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.015s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-09 13:05:01,2019-04-09 13:05:01,0.108s,PASSED

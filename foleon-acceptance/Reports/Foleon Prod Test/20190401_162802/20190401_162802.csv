@@ -1,0 +1,191 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-04-01 16:28:13,2019-04-01 16:30:19,2m - 5.142s,ERROR
+,,,,,,
+Test Cases/Foleon_Homepage_BG,Chrome 73.0.3683.86,,2019-04-01 16:28:14,2019-04-01 16:28:25,10.902s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:28:14,2019-04-01 16:28:16,1.709s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:28:16,2019-04-01 16:28:16,0.467s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:28:16,2019-04-01 16:28:24,8.252s,PASSED
+"click(findTestObject(""Page_Foleon/Foleon_BG""))",Chrome 73.0.3683.86,,2019-04-01 16:28:24,2019-04-01 16:28:24,0.098s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:28:24,2019-04-01 16:28:25,0.127s,PASSED
+,,,,,,
+Test Cases/Foleon_Logo,Chrome 73.0.3683.86,,2019-04-01 16:28:25,2019-04-01 16:28:32,7.871s,ERROR
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:28:25,2019-04-01 16:28:26,0.996s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:28:26,2019-04-01 16:28:26,0.220s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:28:26,2019-04-01 16:28:32,6.486s,PASSED
+"myPredefinedObject = findTestObject(""Object Repository/Page_Foleon/svg_New to Foleon_sc-EHOje eafHZK"")",Chrome 73.0.3683.86,,2019-04-01 16:28:32,2019-04-01 16:28:32,0.001s,PASSED
+"myPredefinedObject.addProperty(""xpath"", EQUALS, ""//*[@id='root']/div/div/div/div/div[1]/div/div[1]/svg/path"", true)",Chrome 73.0.3683.86,,2019-04-01 16:28:32,2019-04-01 16:28:32,0.010s,ERROR
+,,,,,,
+Test Cases/Foleon_label check button_Start a free trial,Chrome 73.0.3683.86,,2019-04-01 16:28:32,2019-04-01 16:28:41,8.592s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:28:33,2019-04-01 16:28:34,1.157s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:28:34,2019-04-01 16:28:34,0.218s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:28:34,2019-04-01 16:28:41,6.944s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/button_Start a free trial""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:41,2019-04-01 16:28:41,0.031s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:28:41,2019-04-01 16:28:41,0.149s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon Click Start a free trial button,Chrome 73.0.3683.86,,2019-04-01 16:28:41,2019-04-01 16:28:55,14.291s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:28:41,2019-04-01 16:28:42,1.033s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:28:42,2019-04-01 16:28:42,0.217s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:28:42,2019-04-01 16:28:49,6.672s,PASSED
+"click(findTestObject(""Page_Foleon/button_Start a free trial""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:28:49,2019-04-01 16:28:55,5.813s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/a_privacy policy""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/button_Create account""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Business email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.025s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/input_Business email_email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/input_Password_password""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Business email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Create account""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Get product-related news and features""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Create account - Foleon/span_Password""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.017s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:55,0.106s,PASSED
+,,,,,,
+"Test Cases/Foleon_check label email, password and Login",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:29:04,8.278s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:28:55,2019-04-01 16:28:56,0.963s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:28:56,2019-04-01 16:28:57,0.217s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:28:57,2019-04-01 16:29:03,6.835s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/label_Email address""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:03,2019-04-01 16:29:03,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/label_Password""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:03,2019-04-01 16:29:03,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_Log in""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:03,2019-04-01 16:29:03,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/button_Log in""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:03,2019-04-01 16:29:03,0.017s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:29:03,2019-04-01 16:29:04,0.101s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon Click Forgot password,Chrome 73.0.3683.86,,2019-04-01 16:29:04,2019-04-01 16:29:24,20.774s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:29:04,2019-04-01 16:29:05,1.027s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:29:05,2019-04-01 16:29:05,0.217s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:29:05,2019-04-01 16:29:11,6.555s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/span_Forgot password""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:29:11,2019-04-01 16:29:13,1.434s,PASSED
+"verifyLinksAccessible([""http://portal.unicornheaven.co/forgot-password""])",Chrome 73.0.3683.86,,2019-04-01 16:29:13,2019-04-01 16:29:24,11.072s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/a_Contact us""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/button_send mail""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_Any questionsContact us""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_Email address""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_Email address_sc-bwzfXH sc-htpNat dnBLRv""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Page_Forgot password  Foleon/div_Forgot your passwordEnter your email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_Forgot your password frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_Go back""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/div_New to FoleonStart a free trial""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/h2_Forgot your password""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/input_Email address_sc-fBuWsC kJDrms""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/p_Any questions""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/span_Enter your email address and well get you back on track""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/span_Go back""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Forgot password  Foleon/span_v20272""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.016s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:24,0.105s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:33,9.049s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:29:24,2019-04-01 16:29:25,1.013s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:29:25,2019-04-01 16:29:26,0.231s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:29:26,2019-04-01 16:29:32,6.253s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-04-01 16:29:32,2019-04-01 16:29:32,0.137s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-04-01 16:29:32,2019-04-01 16:29:32,0.086s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:29:32,2019-04-01 16:29:32,0.060s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:32,2019-04-01 16:29:33,1.046s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:33,2019-04-01 16:29:33,0.018s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:29:33,2019-04-01 16:29:33,0.105s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-04-01 16:29:33,2019-04-01 16:29:44,10.263s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:29:33,2019-04-01 16:29:34,0.982s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:29:34,2019-04-01 16:29:35,0.216s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:29:35,2019-04-01 16:29:42,7.573s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-04-01 16:29:42,2019-04-01 16:29:42,0.147s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-04-01 16:29:42,2019-04-01 16:29:42,0.115s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:29:42,2019-04-01 16:29:43,0.060s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:43,2019-04-01 16:29:44,1.044s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:44,2019-04-01 16:29:44,0.017s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:29:44,2019-04-01 16:29:44,0.102s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-04-01 16:29:44,2019-04-01 16:29:53,9.816s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:29:44,2019-04-01 16:29:45,1.047s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:29:45,2019-04-01 16:29:45,0.218s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:29:45,2019-04-01 16:29:52,6.918s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-04-01 16:29:52,2019-04-01 16:29:52,0.302s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-04-01 16:29:52,2019-04-01 16:29:52,0.107s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:29:52,2019-04-01 16:29:52,0.059s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:52,2019-04-01 16:29:53,1.041s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:29:53,2019-04-01 16:29:53,0.017s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:29:53,2019-04-01 16:29:53,0.100s,PASSED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-04-01 16:29:53,2019-04-01 16:30:02,8.378s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:29:54,2019-04-01 16:29:54,0.981s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:29:54,2019-04-01 16:29:55,0.216s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:29:55,2019-04-01 16:30:01,6.068s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Email address_sc-hSdWYo biyAbi""), Email)",Chrome 73.0.3683.86,,2019-04-01 16:30:01,2019-04-01 16:30:01,0.271s,PASSED
+"setText(findTestObject(""Object Repository/Page_Foleon/input_Password_sc-hSdWYo biyAbi""), Password)",Chrome 73.0.3683.86,,2019-04-01 16:30:01,2019-04-01 16:30:01,0.120s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/button_Log in""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:30:01,2019-04-01 16:30:01,0.060s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/span_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:01,2019-04-01 16:30:02,0.540s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Foleon/div_The email address or password you entered is incorrect Please try again""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:02,2019-04-01 16:30:02,0.020s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:30:02,2019-04-01 16:30:02,0.097s,PASSED
+,,,,,,
+Test Cases/Foleon_Contact Us Page,Chrome 73.0.3683.86,,2019-04-01 16:30:02,2019-04-01 16:30:19,16.692s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-01 16:30:02,2019-04-01 16:30:03,1.049s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 73.0.3683.86,,2019-04-01 16:30:03,2019-04-01 16:30:03,0.218s,PASSED
+"navigateToUrl(""http://my-develop.unicornheaven.co/"")",Chrome 73.0.3683.86,,2019-04-01 16:30:03,2019-04-01 16:30:09,5.929s,PASSED
+"click(findTestObject(""Object Repository/Page_Foleon/a_Contact us""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-01 16:30:09,2019-04-01 16:30:09,0.086s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-01 16:30:09,2019-04-01 16:30:14,5.027s,PASSED
+switchToWindowIndex(1),Chrome 73.0.3683.86,,2019-04-01 16:30:14,2019-04-01 16:30:14,0.018s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-01 16:30:14,2019-04-01 16:30:17,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_FAQ  Support""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_infofoleoncom""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Log in""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Products and title frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:17,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/a_Support frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:17,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/b_By email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.025s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/b_By phone""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_1""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.077s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div__actions""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_By phone_flag""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_London_flag""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/h3_Send us a message""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/h4_Support""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/img""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/img DU""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/img NL""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__company""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__email""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__firstname""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input__hs-button primary large""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/input_Phone number_phone""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/label_Email address""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/label_First name""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/label_Phone number""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_By phone""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/p_See all of our support options""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Amsterdam""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Email address""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Find out more""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_London""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Looking for help""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_New York""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_We love quality communication""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.049s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/textarea__message""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF""), 2)",Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.023s,PASSED
+closeWindowIndex(1),Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.080s,PASSED
+switchToWindowIndex(0),Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:18,0.010s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 16:30:18,2019-04-01 16:30:19,0.118s,PASSED

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="41" tests="1" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="1" failures="0" errors="0" time="41" timestamp="2019-04-09 13:04:20" hostname="siju - 10.34.12.118" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190409_130408"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190409_130408/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 10.34.12.118"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.34.12.118"/>
+         <property name="sessionId" value="92846696c48739a99760245ff2ac792a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Get started" classname="Test Cases/Foleon_Get started" status="PASSED">
+         <system-out><![CDATA[2019-04-09 13:04:20 - [TEST_CASE][PASSED] - Test Cases/Foleon_Get started: Test Cases/Foleon_Get started
+
+2019-04-09 13:04:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-09 13:04:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 13:04:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-09 13:04:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-09 13:04:22 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-09 13:04:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-09 13:04:23 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/login"): Navigate to 'http://my-develop.unicornheaven.co/login' successfully
+
+2019-04-09 13:04:29 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/login' successfully
+
+2019-04-09 13:04:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login  Foleon/label_Email address"), 2): Object 'Object Repository/Page_Login  Foleon/label_Email address' is present
+
+2019-04-09 13:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login  Foleon/label_Email address' is present
+
+2019-04-09 13:04:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login  Foleon/label_Password"), 2): Object 'Object Repository/Page_Login  Foleon/label_Password' is present
+
+2019-04-09 13:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login  Foleon/label_Password' is present
+
+2019-04-09 13:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj"), fieldemail): Text 'john@papps.nl' is set on object 'Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj'
+
+2019-04-09 13:04:29 - [MESSAGE][PASSED] - Text 'john@papps.nl' is set on object 'Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj'
+
+2019-04-09 13:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj"), fieldpassword): Text 'Foleon728$' is set on object 'Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj'
+
+2019-04-09 13:04:29 - [MESSAGE][PASSED] - Text 'Foleon728$' is set on object 'Object Repository/Page_Login  Foleon/input_Email address_sc-ifAKCX bkhdWj'
+
+2019-04-09 13:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login  Foleon/button_Log in"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Login  Foleon/button_Log in' is clicked on
+
+2019-04-09 13:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Foleon/button_Log in' is clicked on
+
+2019-04-09 13:04:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-09 13:04:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 13:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Get started - Foleon/span_Back"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Get started - Foleon/span_Back' is clicked on
+
+2019-04-09 13:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Get started - Foleon/span_Back' is clicked on
+
+2019-04-09 13:04:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/button_2Get started"), 2): Object 'Object Repository/Page_Get started - Foleon/button_2Get started' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/button_2Get started' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/button_Design"), 2): Object 'Object Repository/Page_Get started - Foleon/button_Design' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/button_Design' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/button_I work for an agency"), 2): Object 'Object Repository/Page_Get started - Foleon/button_I work for an agency' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/button_I work for an agency' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/button_Marketing  Communications"), 2): Object 'Object Repository/Page_Get started - Foleon/button_Marketing  Communications' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/button_Marketing  Communications' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/button_Other"), 2): Object 'Object Repository/Page_Get started - Foleon/button_Other' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/button_Other' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/button_Sales"), 2): Object 'Object Repository/Page_Get started - Foleon/button_Sales' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/button_Sales' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_1"), 2): Object 'Object Repository/Page_Get started - Foleon/div_1' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_1' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_1About you"), 2): Object 'Object Repository/Page_Get started - Foleon/div_1About you' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_1About you' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_2"), 2): Object 'Object Repository/Page_Get started - Foleon/div_2' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_2' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_2Get started"), 2): Object 'Object Repository/Page_Get started - Foleon/div_2Get started' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_2Get started' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Continue"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Continue' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Continue' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_First name"), 2): Object 'Object Repository/Page_Get started - Foleon/div_First name' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_First name' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_First nameLast nameCompany nameBusiness phone number"), 2): Object 'Object Repository/Page_Get started - Foleon/div_First nameLast nameCompany nameBusiness phone number' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_First nameLast nameCompany nameBusiness phone number' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourse"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourse' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourse' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourselfPlease answer a few questions so we can help you get started on the right foot1About you2Get started"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourselfPlease answer a few questions so we can help you get started on the right foot1About you2Get started' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Tell us a bit about yourselfPlease answer a few questions so we can help you get started on the right foot1About you2Get started' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_1"), 2): Object 'Object Repository/Page_Get started - Foleon/span_1' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_1' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_2"), 2): Object 'Object Repository/Page_Get started - Foleon/span_2' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_2' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Design"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Design' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Design' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Get started"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Get started' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Get started' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_How do you currently present content"), 2): Object 'Object Repository/Page_Get started - Foleon/span_How do you currently present content' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_How do you currently present content' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_I work for an agency"), 2): Object 'Object Repository/Page_Get started - Foleon/span_I work for an agency' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_I work for an agency' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_In what industry are you active"), 2): Object 'Object Repository/Page_Get started - Foleon/span_In what industry are you active' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_In what industry are you active' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Marketing  Communications"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Marketing  Communications' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Marketing  Communications' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_"), 2): Object 'Object Repository/Page_Get started - Foleon/span_' is present
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_' is present
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Get started - Foleon/span_"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Get started - Foleon/span_' is clicked on
+
+2019-04-09 13:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Get started - Foleon/span_' is clicked on
+
+2019-04-09 13:04:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Pick one"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Pick one' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Pick one' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Publisher"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Publisher' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Publisher' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Construction  Real Estate"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Construction  Real Estate' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Construction  Real Estate' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Healthcare"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Healthcare' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Healthcare' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Government"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Government' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Government' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Education Management"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Education Management' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Education Management' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Retail"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Retail' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Retail' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Travel"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Travel' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Travel' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Automotive"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Automotive' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Automotive' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Non Profit  NGO"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Non Profit  NGO' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Non Profit  NGO' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Business services"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Business services' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Business services' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Other"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Other' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Other' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Sales"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Sales' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Sales' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Student"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Student' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Student' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_IT"), 2): Object 'Object Repository/Page_Get started - Foleon/span_IT' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_IT' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Other"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Other' is present
+
+2019-04-09 13:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Other' is present
+
+2019-04-09 13:05:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Union  Association"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Union  Association' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Union  Association' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_What department are you a part of"), 2): Object 'Object Repository/Page_Get started - Foleon/span_What department are you a part of' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_What department are you a part of' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Your contact details"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Your contact details' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Your contact details' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Non Profit  NGO"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Non Profit  NGO' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Non Profit  NGO' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Other"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Other' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Other' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Other software"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Other software' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Other software' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_PDFs"), 2): Object 'Object Repository/Page_Get started - Foleon/div_PDFs' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_PDFs' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Pick one"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Pick one' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Pick one' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Print"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Print' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Print' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Publisher"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Publisher' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Publisher' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Retail"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Retail' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Retail' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Student"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Student' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Student' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Education Management"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Education Management' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Education Management' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Automotive"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Automotive' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Automotive' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Business services"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Business services' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Business services' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Construction  Real Estate"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Construction  Real Estate' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Construction  Real Estate' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Government"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Government' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Government' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Healthcare"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Healthcare' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Healthcare' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_I dont currently present content"), 2): Object 'Object Repository/Page_Get started - Foleon/div_I dont currently present content' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_I dont currently present content' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_IT"), 2): Object 'Object Repository/Page_Get started - Foleon/div_IT' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_IT' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Marketing  CommunicationsSalesDesignI work for an agencyOther"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Marketing  CommunicationsSalesDesignI work for an agencyOther' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Marketing  CommunicationsSalesDesignI work for an agencyOther' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/span_Agency"), 2): Object 'Object Repository/Page_Get started - Foleon/span_Agency' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/span_Agency' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_Agency"), 2): Object 'Object Repository/Page_Get started - Foleon/div_Agency' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_Agency' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Get started - Foleon/div_My website"), 2): Object 'Object Repository/Page_Get started - Foleon/div_My website' is present
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Get started - Foleon/div_My website' is present
+
+2019-04-09 13:05:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 13:05:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-09 13:04:20 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/Foleon_Get started]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

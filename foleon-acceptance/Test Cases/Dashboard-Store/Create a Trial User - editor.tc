@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a Trial User - editor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b0560d5-f2ab-46f1-86d1-2af3f6a675fd</testCaseGuid>
+   <variable>
+      <defaultValue>'barry+103@foleon.com'</defaultValue>
+      <description></description>
+      <id>cd988f48-c783-4273-8971-578ab7a42744</id>
+      <masked>false</masked>
+      <name>BusinessEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'rtfm2013'</defaultValue>
+      <description></description>
+      <id>49a78913-4da9-473d-87a0-e4e2b4cc8194</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'John'</defaultValue>
+      <description></description>
+      <id>0c28aea0-c493-4b47-9102-e21ab8f83c9b</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'lasdkjf'</defaultValue>
+      <description></description>
+      <id>1fb04c57-c333-44ce-93fc-900925173902</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'BARRY'</defaultValue>
+      <description></description>
+      <id>d898d087-2c08-45e3-8cee-72efaf410b26</id>
+      <masked>false</masked>
+      <name>CompanyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'34343433'</defaultValue>
+      <description></description>
+      <id>c10dc08c-165b-46cc-9849-af0dc0f6edfd</id>
+      <masked>false</masked>
+      <name>PhoneNumber</name>
+   </variable>
+</TestCaseEntity>

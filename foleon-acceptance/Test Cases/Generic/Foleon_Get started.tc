@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Foleon_Get started</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33c1976b-c7c7-41be-affc-c32971fb59cd</testCaseGuid>
+   <variable>
+      <defaultValue>'john@papps.nl'</defaultValue>
+      <description></description>
+      <id>65e1d137-83bb-4e32-9df6-1c947582f4c0</id>
+      <masked>false</masked>
+      <name>fieldemail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Foleon728$'</defaultValue>
+      <description></description>
+      <id>3257ea90-2985-41c0-9d98-08487fdac71b</id>
+      <masked>false</masked>
+      <name>fieldpassword</name>
+   </variable>
+</TestCaseEntity>

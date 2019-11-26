@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-03-27 17:35:59,2019-03-27 17:36:07,8.755s,FAILED
+,,,,,,
+Test Cases/Foleon_Homepage_BG,Chrome 73.0.3683.86,,2019-03-27 17:35:59,2019-03-27 17:36:05,6.512s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:35:59,2019-03-27 17:36:00,0.694s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-27 17:36:00,2019-03-27 17:36:05,5.429s,PASSED
+"click(findTestObject(""Page_Foleon/Foleon_BG""))",Chrome 73.0.3683.86,,2019-03-27 17:36:05,2019-03-27 17:36:05,0.095s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-27 17:36:05,2019-03-27 17:36:05,0.065s,PASSED
+,,,,,,
+Test Cases/Foleon_Logo,Chrome 73.0.3683.86,,2019-03-27 17:36:05,2019-03-27 17:36:06,0.310s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:05,2019-03-27 17:36:06,0.168s,FAILED
+,,,,,,
+Test Cases/Foleon_label check button_Start a free trial,Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:06,0.237s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:06,0.120s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon Click Start a free trial button,Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:06,0.240s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:06,0.118s,FAILED
+,,,,,,
+"Test Cases/Foleon_check label email, password and Login",Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:06,0.212s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:06,0.119s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon Click Forgot password,Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:07,0.223s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:06,2019-03-27 17:36:07,0.119s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.205s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.116s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.124s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.118s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.124s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.118s,FAILED
+,,,,,,
+Test Cases/Foleon_Logon invalid authenticate,Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.120s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.113s,FAILED
+,,,,,,
+Test Cases/Foleon_Contact Us Page,Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.220s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-27 17:36:07,2019-03-27 17:36:07,0.118s,FAILED

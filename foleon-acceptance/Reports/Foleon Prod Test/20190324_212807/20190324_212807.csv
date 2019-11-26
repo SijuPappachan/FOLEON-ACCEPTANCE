@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foleon Prod Test,Chrome 73.0.3683.86,,2019-03-24 21:28:19,2019-03-24 21:29:05,46.822s,FAILED
+,,,,,,
+Test Cases/Foleon_Homepage_BG,Chrome 73.0.3683.86,,2019-03-24 21:28:19,2019-03-24 21:28:27,8.025s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-24 21:28:19,2019-03-24 21:28:21,1.939s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-24 21:28:21,2019-03-24 21:28:27,5.689s,PASSED
+"click(findTestObject(""Page_Foleon/Foleon_BG""))",Chrome 73.0.3683.86,,2019-03-24 21:28:27,2019-03-24 21:28:27,0.088s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-03-24 21:28:27,2019-03-24 21:28:27,0.103s,PASSED
+,,,,,,
+Test Cases/Foleon_Homepage_logo,Chrome 73.0.3683.86,,2019-03-24 21:28:27,2019-03-24 21:29:05,38.492s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-24 21:28:27,2019-03-24 21:28:28,0.980s,PASSED
+"navigateToUrl(""http://editor.unicornheaven.co/login"")",Chrome 73.0.3683.86,,2019-03-24 21:28:28,2019-03-24 21:28:34,5.753s,PASSED
+"check(findTestObject(""Page_Foleon/Foleon_logo""))",Chrome 73.0.3683.86,,2019-03-24 21:28:34,2019-03-24 21:29:05,31.624s,FAILED

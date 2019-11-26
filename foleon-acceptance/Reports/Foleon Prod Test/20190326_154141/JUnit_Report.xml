@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="1" failures="0" errors="0" time="14" timestamp="2019-03-26 15:41:53" hostname="siju - 10.34.12.118" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190326_154141"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190326_154141/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 10.34.12.118"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.34.12.118"/>
+         <property name="sessionId" value="59335d2fa946875ec8b14b38b67f9be2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Logon Click Start a free trial button" classname="Test Cases/Foleon_Logon Click Start a free trial button" status="PASSED">
+         <system-out><![CDATA[2019-03-26 15:41:53 - [TEST_CASE][PASSED] - Test Cases/Foleon_Logon Click Start a free trial button: Test Cases/Foleon_Logon Click Start a free trial button
+
+2019-03-26 15:41:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-26 15:41:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-26 15:41:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-26 15:41:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-26 15:41:55 - [TEST_STEP][PASSED] - navigateToUrl("http://editor.unicornheaven.co/login"): Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 15:42:01 - [MESSAGE][PASSED] - Navigate to 'http://editor.unicornheaven.co/login' successfully
+
+2019-03-26 15:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Foleon/button_Start a free trial"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/button_Start a free trial' is clicked on
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/button_Start a free trial' is clicked on
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/a_privacy policy"), 2): Object 'Object Repository/Page_Create account - Foleon/a_privacy policy' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/a_privacy policy' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/button_Create account"), 2): Object 'Object Repository/Page_Create account - Foleon/button_Create account' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/button_Create account' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Already have an accountLog in here' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Business email"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Business email' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Business email' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Business email_css-1ji94hn' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Password_css-1ji94hn' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days"), 2): Object 'Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/div_Try Foleon free for 7 days' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days"), 2): Object 'Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/h1_Try Foleon free for 7 days' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/input_Business email_email"), 2): Object 'Object Repository/Page_Create account - Foleon/input_Business email_email' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/input_Business email_email' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/input_Password_password"), 2): Object 'Object Repository/Page_Create account - Foleon/input_Password_password' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/input_Password_password' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi"), 2): Object 'Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/label_Get occasional blog updates and other inspirational emails_css-1m7xuyi' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi"), 2): Object 'Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/label_Password_css-1m7xuyi' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Business email"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Business email' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Business email' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Create account"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Create account' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Create account' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Foleon will not share your data for commercial use Check our privacy policy' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Get occasional blog updates and other inspirational emails' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Get product-related news and features"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Get product-related news and features' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Get product-related news and features' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Create account - Foleon/span_Password"), 2): Object 'Object Repository/Page_Create account - Foleon/span_Password' is present
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create account - Foleon/span_Password' is present
+
+2019-03-26 15:42:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-26 15:42:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-26 15:41:53 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/Foleon_Logon Click Start a free trial button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

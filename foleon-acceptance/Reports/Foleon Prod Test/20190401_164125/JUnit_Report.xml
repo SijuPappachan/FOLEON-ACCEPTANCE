@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Foleon Prod Test" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="Foleon Prod Test" tests="1" failures="0" errors="0" time="17" timestamp="2019-04-01 16:41:37" hostname="siju - 192.168.178.88" id="Test Suites/Foleon Prod Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190401_164125"/>
+         <property name="logFiles" value="/Users/siju/Documents/FOLEON PRODUCTION/Foleon Production/Reports/Foleon Prod Test/20190401_164125/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siju - 192.168.178.88"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.178.88"/>
+         <property name="sessionId" value="308ccc205e15a63a3f7a7163e1732d09"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Foleon_Contact Us Page" classname="Test Cases/Foleon_Contact Us Page" status="PASSED">
+         <system-out><![CDATA[2019-04-01 16:41:37 - [TEST_CASE][PASSED] - Test Cases/Foleon_Contact Us Page: Test Cases/Foleon_Contact Us Page
+
+2019-04-01 16:41:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 16:41:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 16:41:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 16:41:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 16:41:39 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-04-01 16:41:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 16:41:39 - [TEST_STEP][PASSED] - navigateToUrl("http://my-develop.unicornheaven.co/"): Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-01 16:41:45 - [MESSAGE][PASSED] - Navigate to 'http://my-develop.unicornheaven.co/' successfully
+
+2019-04-01 16:41:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Foleon/a_Contact us"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Foleon/a_Contact us' is clicked on
+
+2019-04-01 16:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Foleon/a_Contact us' is clicked on
+
+2019-04-01 16:41:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-01 16:41:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-01 16:41:50 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-01 16:41:50 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-01 16:41:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_FAQ  Support"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_FAQ  Support' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_FAQ  Support' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Free 7-day trial' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_infofoleoncom"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_infofoleoncom' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_infofoleoncom' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Log in"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Log in' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Log in' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Products and title frame"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Products and title frame' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Products and title frame' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Resources dropdown grid' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Solution dropdown grid' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/a_Support frame"), 2): Object 'Object Repository/Page_Contact Us  Foleon/a_Support frame' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/a_Support frame' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/b_By email"), 2): Object 'Object Repository/Page_Contact Us  Foleon/b_By email' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/b_By email' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/b_By phone"), 2): Object 'Object Repository/Page_Contact Us  Foleon/b_By phone' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/b_By phone' is present
+
+2019-04-01 16:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_1"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_1' is present
+
+2019-04-01 16:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_1' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_1 347 727 6809   New York' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_31 (0)20 303 2822   Amsterdam' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_44 (0) 203 923 4928  London' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div__actions"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div__actions' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div__actions' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_By phone_flag"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_By phone_flag' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_By phone_flag' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_FAQ  support total frame' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_London_flag"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_London_flag' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_London_flag' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite"), 2): Object 'Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/DU a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/h3_Send us a message"), 2): Object 'Object Repository/Page_Contact Us  Foleon/h3_Send us a message' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/h3_Send us a message' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us"), 2): Object 'Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/h3_Ways to contact us' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/h4_Support"), 2): Object 'Object Repository/Page_Contact Us  Foleon/h4_Support' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/h4_Support' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget"), 2): Object 'Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/iframe_concat(id(  drift-widget  ))_drift-widget' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/img"), 2): Object 'Object Repository/Page_Contact Us  Foleon/img' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/img' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/img DU"), 2): Object 'Object Repository/Page_Contact Us  Foleon/img DU' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/img DU' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/img NL"), 2): Object 'Object Repository/Page_Contact Us  Foleon/img NL' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/img NL' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__company"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__company' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__company' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__email"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__email' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__email' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__firstname"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__firstname' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__firstname' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input__hs-button primary large"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input__hs-button primary large' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input__hs-button primary large' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/input_Phone number_phone"), 2): Object 'Object Repository/Page_Contact Us  Foleon/input_Phone number_phone' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/input_Phone number_phone' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/label_Email address"), 2): Object 'Object Repository/Page_Contact Us  Foleon/label_Email address' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/label_Email address' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/label_First name"), 2): Object 'Object Repository/Page_Contact Us  Foleon/label_First name' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/label_First name' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/label_Phone number"), 2): Object 'Object Repository/Page_Contact Us  Foleon/label_Phone number' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/label_Phone number' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite"), 2): Object 'Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/NL a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_By phone"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_By phone' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_By phone' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_Got a question or comment Feel free to get in touch (1)' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_Read our FAQs or check out our support section' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/p_See all of our support options"), 2): Object 'Object Repository/Page_Contact Us  Foleon/p_See all of our support options' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/p_See all of our support options' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_1 347 727 6809' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_31 (0)20 303 2822' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Amsterdam"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Amsterdam' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Amsterdam' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Email address"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Email address' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Email address' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Find out more"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Find out more' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Find out more' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_London"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_London' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_London' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Looking for help"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Looking for help' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Looking for help' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_New York"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_New York' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_New York' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_We love quality communication"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_We love quality communication' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_We love quality communication' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support"), 2): Object 'Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/span_Would you like to check out our platform or do you need help from support' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/textarea__message"), 2): Object 'Object Repository/Page_Contact Us  Foleon/textarea__message' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/textarea__message' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite"), 2): Object 'Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/UK a_All resources_hs-skip-lang-url-rewrite' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF"), 2): Object 'Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF' is present
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contact Us  Foleon/div_logo-fillfillFFFFFF' is present
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-04-01 16:41:54 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-04-01 16:41:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-01 16:41:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 16:41:37 - [TEST_SUITE][PASSED] - Foleon Prod Test: Test Cases/Foleon_Contact Us Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
